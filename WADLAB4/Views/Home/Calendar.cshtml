@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewBag.Title = "Calendar";
+}
+
+<h2>Calendar</h2>
+
+@DateTime.Now.ToString("yyyy-MM-dd")
+<br />
+<style>
+    th {
+        width: 14%;
+    }
+</style>
+@{
+    DateTime first = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
+    @first.DayOfWeek
+}
+<br />
+@first
+
+<table class="table">
+    <tr>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+    </tr>
+    <tr>
+        @for (int i = (int)(first.DayOfWeek); i > 1; i--)
+        {
+            <td>@first.AddDays(-1 * i + 1).Day</td>
+        }
+        @for (int i = 1; i <= DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month); i++)
+        {
+            <td><strong>@i</strong><br />
+        @{
+            DateTime day = new DateTime(DateTime.Now.Year, DateTime.Now.Month, i);
+            var db = WADLAB4.Models.ApplicationDbContext.Create();
+            List<WADLAB4.Models.Event> items = db.Events.Where(m => m.Date == day).ToList();
+            foreach(var item in items)
+            {
+                @item.Name<br />
+            }
+
+        }</td>
+            if (day.DayOfWeek == DayOfWeek.Sunday)
+            {
+                @Html.Raw("</tr><tr>")
+            }
+        }
+        @if (first.AddMonths(1).AddDays(-1).DayOfWeek > DayOfWeek.Sunday)
+        {
+            first = first.AddMonths(1);
+            while (first.DayOfWeek != DayOfWeek.Monday)
+            {
+                <td>@first.Day</td>
+                first = first.AddDays(1);
+            }
+        }
+    </tr>
+</table>

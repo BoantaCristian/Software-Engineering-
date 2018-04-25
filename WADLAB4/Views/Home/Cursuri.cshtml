@@ -1,0 +1,161 @@
+﻿
+@{
+    ViewBag.Title = "Cursuri";
+}
+
+<style>
+	.onclick-menu {
+		position: relative;
+		display: inline-block;
+		background-color: #AFAFAF;
+	}
+	.onclick-menu:before {
+		color: white;
+		margin: 5px 5px 15px 10px;
+	}
+	.om1:before {
+		content: "Anul 1";
+	}
+	.om2:before {
+		content: "Anul 2";
+	}
+	.om3:before {
+		content: "Anul 3";
+	}
+	.om4:before {
+		content: "Anul 4";
+	}
+	.onclick-menu:focus .onclick-menu-content {
+		visibility: visible;
+		display: block;
+	}
+	.onclick-menu-content {
+		z-index: 1;
+		position: absolute;
+		border-style: outset;
+		border: 3px solid #C3C3C3;
+		width: 300px;
+		background-color: #C3C3C3;
+		visibility: hidden;
+		transition: visibility 0.1s;
+	}
+	ul {
+		color: white;
+	}
+	.container form {
+		display: table;
+	}
+	.container input {
+		display: table-cell;
+	}
+	.container label {
+		display: table-cell;
+	}
+	.container p {
+		display: table-row;
+	}
+	.cursuri-student {
+		display: table;
+		width: 100%;
+	}
+	.mytable {
+		display: table;
+		width: 50%;
+		align-content: center;
+	}
+	.in2 {
+		display: table-cell;
+	}
+	.in3 {
+		display: table-row;
+	}
+	.mytable label {
+		display: table-cell;
+	}
+	.mytable p {
+		display: table-cell;
+	}
+</style>
+
+<h2>Cursuri(student view)</h2>
+
+<div class="cursuri-student">
+	<div tabindex="0" class="in2 btn btn-default onclick-menu om1"> 
+		<div id="list" class="onclick-menu-content">
+			Materie 1: <a href="https://www.google.com">Link catre curs</a><br />
+			Materie 2: <a href="https://www.google.com">Link catre curs</a><br />
+			Materie 3: <a href="https://www.google.com">Link catre curs</a><br />
+			Materie 4: <a href="https://www.google.com">Link catre curs</a><br />
+		</div>
+	</div>
+	&nbsp;
+	<div tabindex="0" class="in2 btn btn-default onclick-menu om2"> 
+		<div id="list" class="onclick-menu-content">
+			Materie 1: <a href="https://www.google.com">Link catre curs</a><br />
+			Materie 2: <a href="https://www.google.com">Link catre curs</a><br />
+			Materie 3: <a href="https://www.google.com">Link catre curs</a><br />
+			Materie 4: <a href="https://www.google.com">Link catre curs</a><br />
+		</div>
+	</div>
+	&nbsp;
+	<div tabindex="0" class="in2 btn btn-default onclick-menu om3"> 
+		<div id="list" class="onclick-menu-content">
+			Materie 1: <a href="https://www.google.com">Link catre curs</a><br />
+			Materie 2: <a href="https://www.google.com">Link catre curs</a><br />
+			Materie 3: <a href="https://www.google.com">Link catre curs</a><br />
+			Materie 4: <a href="https://www.google.com">Link catre curs</a><br />
+		</div>
+	</div>
+	&nbsp;
+	<div tabindex="0" class="in2 btn btn-default onclick-menu om4">
+		<div id="list" class="onclick-menu-content">
+			Materie 1: <a href="https://www.google.com">Link catre curs</a><br />
+			Materie 2: <a href="https://www.google.com">Link catre curs</a><br />
+			Materie 3: <a href="https://www.google.com">Link catre curs</a><br />
+			Materie 4: <a href="https://www.google.com">Link catre curs</a><br />
+		</div>
+	</div> 
+	&nbsp;
+</div>
+<br /><br />
+
+<h2>Cursuri(Teacher view)</h2>
+<div class="cursuri-prof">
+	<h2>Cursurile Mele:</h2>
+	<div class="mytable">
+		<label>Curs 1:</label>
+		<p>
+			Nume: NUME CURS<br />
+			Specializare: SPEC <br />
+			An studiu: X <br />
+			Link: <a href="https://www.google.com"> Here</a><br />
+		</p>		
+		&nbsp;
+		<label>Curs 2:</label>
+		</p>
+		<p>
+			Nume: NUME CURS<br />
+			Specializare: SPEC <br />
+			An studiu: X <br />
+			Link: <a href="https://www.google.com"> Here</a><br />
+		</p>
+	</div>
+	<h2>Upload Curs</h2>
+	<div class="container">
+		<form id="up-content">
+			<p>
+				<label>Numele Cursului: </label><input type="text" name="cname" />
+			</p>
+			<p>
+				<label>Specializare Curs: </label><input type="text" name="cspec" /><br />
+			</p>
+			<p>
+				<label>An Curs: </label><input type="number" min="1" max="4" name="can" /><br />
+			</p>
+			<p>
+				<label>Fisier Curs: </label><input type="file" name="cfile" /><br />
+			</p>
+			<input type="submit" value="Upload Curs" /><br />
+		</form>
+	</div>
+</div>

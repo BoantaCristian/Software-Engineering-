@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "Note";
+}
+
+<style>
+	.mytable {
+		display: table;
+		width: 40%;
+	}
+	.mytable p {
+		display: table-cell;
+	}
+</style>
+
+<div class="student">
+	<h2>Note(student view)</h2>
+	<table class="mytable">
+		<tr>
+			<th>Materie</th>
+			<th>Nota</th>
+			<th>Link</th>
+		</tr>
+        <tr></tr>
+		<tr>
+			<th>Materie 1</th>
+			<th>X</th>
+			<th><a href="https://www.google.com">Here</a></th>
+		</tr>
+		<tr>
+			<th>Materie 2</th>
+			<th>X</th>
+			<th><a href="https://www.google.com">Here</a></th>
+		</tr>
+	</table>
+</div>
+
+<div class="prof">
+    <h2>Note(Teacher view)</h2>
+    <h3>Materie :</h3>
+    <select class="button">
+        <option value="m1">Materie 1</option>
+        <option value="m2">Materie 2</option>
+        <option value="mx">Materie x</option>
+    </select>
+    <table class="mytable">
+        <tr>
+            <th>Nume Student</th>
+            <th>Nota</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <th>Stud 1</th>
+            <th>X</th>
+            <th><a href="https://www.google.com">Here</a></th>
+        </tr>
+        <tr>
+            <th>Stud 2</th>
+            <th>X</th>
+            <th><a href="https://www.google.com">Here</a></th>
+        </tr>
+    </table>
+</div>

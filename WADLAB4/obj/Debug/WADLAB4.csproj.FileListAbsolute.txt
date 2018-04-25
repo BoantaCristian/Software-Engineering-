@@ -1,0 +1,219 @@
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\ApplicationInsights.config
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\WADLAB4.dll.config
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\WADLAB4.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\WADLAB4.pdb
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Antlr3.Runtime.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\EntityFramework.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\EntityFramework.SqlServer.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.AI.Web.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.Owin.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Newtonsoft.Json.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Owin.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\System.Web.Helpers.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\System.Web.Mvc.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\System.Web.Optimization.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\System.Web.Razor.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\System.Web.WebPages.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\System.Web.WebPages.Razor.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\WebGrease.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\System.Web.Helpers.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\System.Web.Mvc.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\System.Web.Optimization.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\System.Web.Razor.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\System.Web.WebPages.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\System.Web.WebPages.Razor.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Antlr3.Runtime.pdb
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Newtonsoft.Json.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\EntityFramework.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\EntityFramework.SqlServer.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.Owin.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\bin\Microsoft.AI.Web.xml
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\obj\Debug\WADLAB4.csprojResolveAssemblyReference.cache
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\obj\Debug\WADLAB4.csproj.CoreCompileInputs.cache
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\obj\Debug\WADLAB4.dll
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\obj\Debug\WADLAB4.pdb
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\obj\Debug\WADLAB4.Models.InitialMigrations.resources
+C:\Users\Augu\source\repos\WADLAB4\WADLAB4\obj\Debug\WADLAB4.csproj.GenerateResource.Cache
+G:\Work\WADLAB4\WADLAB4\bin\ApplicationInsights.config
+G:\Work\WADLAB4\WADLAB4\bin\WADLAB4.dll.config
+G:\Work\WADLAB4\WADLAB4\bin\WADLAB4.dll
+G:\Work\WADLAB4\WADLAB4\bin\WADLAB4.pdb
+G:\Work\WADLAB4\WADLAB4\bin\Antlr3.Runtime.dll
+G:\Work\WADLAB4\WADLAB4\bin\EntityFramework.dll
+G:\Work\WADLAB4\WADLAB4\bin\EntityFramework.SqlServer.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.AI.Agent.Intercept.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.AI.DependencyCollector.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.AI.Web.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.AI.WindowsServer.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.ApplicationInsights.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.Owin.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Facebook.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Google.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Twitter.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.Web.Infrastructure.dll
+G:\Work\WADLAB4\WADLAB4\bin\Newtonsoft.Json.dll
+G:\Work\WADLAB4\WADLAB4\bin\Owin.dll
+G:\Work\WADLAB4\WADLAB4\bin\System.Web.Helpers.dll
+G:\Work\WADLAB4\WADLAB4\bin\System.Web.Mvc.dll
+G:\Work\WADLAB4\WADLAB4\bin\System.Web.Optimization.dll
+G:\Work\WADLAB4\WADLAB4\bin\System.Web.Razor.dll
+G:\Work\WADLAB4\WADLAB4\bin\System.Web.WebPages.Deployment.dll
+G:\Work\WADLAB4\WADLAB4\bin\System.Web.WebPages.dll
+G:\Work\WADLAB4\WADLAB4\bin\System.Web.WebPages.Razor.dll
+G:\Work\WADLAB4\WADLAB4\bin\WebGrease.dll
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Work\WADLAB4\WADLAB4\bin\System.Web.Helpers.xml
+G:\Work\WADLAB4\WADLAB4\bin\System.Web.Mvc.xml
+G:\Work\WADLAB4\WADLAB4\bin\System.Web.Optimization.xml
+G:\Work\WADLAB4\WADLAB4\bin\System.Web.Razor.xml
+G:\Work\WADLAB4\WADLAB4\bin\System.Web.WebPages.xml
+G:\Work\WADLAB4\WADLAB4\bin\System.Web.WebPages.Deployment.xml
+G:\Work\WADLAB4\WADLAB4\bin\System.Web.WebPages.Razor.xml
+G:\Work\WADLAB4\WADLAB4\bin\Antlr3.Runtime.pdb
+G:\Work\WADLAB4\WADLAB4\bin\Newtonsoft.Json.xml
+G:\Work\WADLAB4\WADLAB4\bin\EntityFramework.xml
+G:\Work\WADLAB4\WADLAB4\bin\EntityFramework.SqlServer.xml
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.Owin.xml
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.xml
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Facebook.xml
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Google.xml
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Twitter.xml
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.ApplicationInsights.xml
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.AI.DependencyCollector.xml
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.AI.WindowsServer.xml
+G:\Work\WADLAB4\WADLAB4\bin\Microsoft.AI.Web.xml
+G:\Work\WADLAB4\WADLAB4\obj\Debug\WADLAB4.csprojResolveAssemblyReference.cache
+G:\Work\WADLAB4\WADLAB4\obj\Debug\WADLAB4.Models.InitialMigrations.resources
+G:\Work\WADLAB4\WADLAB4\obj\Debug\WADLAB4.csproj.GenerateResource.Cache
+G:\Work\WADLAB4\WADLAB4\obj\Debug\WADLAB4.csproj.CoreCompileInputs.cache
+G:\Work\WADLAB4\WADLAB4\obj\Debug\WADLAB4.dll
+G:\Work\WADLAB4\WADLAB4\obj\Debug\WADLAB4.pdb
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\ApplicationInsights.config
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\WADLAB4.dll.config
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\WADLAB4.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\WADLAB4.pdb
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Antlr3.Runtime.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\EntityFramework.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\EntityFramework.SqlServer.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.AI.DependencyCollector.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.AI.Web.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.AI.WindowsServer.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.ApplicationInsights.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.Owin.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Google.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.Web.Infrastructure.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Newtonsoft.Json.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Owin.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\System.Web.Helpers.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\System.Web.Mvc.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\System.Web.Optimization.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\System.Web.Razor.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\System.Web.WebPages.Deployment.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\System.Web.WebPages.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\System.Web.WebPages.Razor.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\WebGrease.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\System.Web.Helpers.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\System.Web.Mvc.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\System.Web.Optimization.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\System.Web.Razor.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\System.Web.WebPages.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\System.Web.WebPages.Deployment.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\System.Web.WebPages.Razor.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Antlr3.Runtime.pdb
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Newtonsoft.Json.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\EntityFramework.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\EntityFramework.SqlServer.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.Owin.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Google.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.ApplicationInsights.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.AI.DependencyCollector.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.AI.WindowsServer.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\bin\Microsoft.AI.Web.xml
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\obj\Debug\WADLAB4.csprojResolveAssemblyReference.cache
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\obj\Debug\WADLAB4.Models.InitialMigrations.resources
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\obj\Debug\WADLAB4.csproj.GenerateResource.Cache
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\obj\Debug\WADLAB4.csproj.CoreCompileInputs.cache
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\obj\Debug\WADLAB4.dll
+D:\Facultate\Proiect 2(SE)\WADLAB4\WADLAB4\obj\Debug\WADLAB4.pdb
