@@ -27,6 +27,12 @@ namespace WADLAB4.Models
         }
 
         public DbSet<Event> Events { get; set; }
+        public DbSet<Student> Studenti { get; set; }
+        public DbSet<Specializare> Specs { get; set; }
+        public DbSet<Materie> Materii { get; set; }
+        public DbSet<Profesor> Profesori { get; set; }
+        public DbSet<Nota> Note { get; set; }
+
 
         public static ApplicationDbContext Create()
         {
