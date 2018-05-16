@@ -7,8 +7,8 @@ namespace WADLAB4.Models
 {
     public class Specializare
     {
-        public string Nume { get; set; }
+        public int id { get; set; }
 
-        
+        public string Nume { get; set; }
     }
 }

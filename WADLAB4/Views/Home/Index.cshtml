@@ -2,31 +2,39 @@
     ViewBag.Title = "Home Page";
 }
 
+<style>
+    .row {
+        width: 100%;
+        overflow-x: auto;
+
+    }
+</style>
+
 <div class="jumbotron">
     <h1>Evidenta Facultatii 51</h1>
     <p class="lead">Cea mai buna facultate pentru fiinte umane. Veniti la noi in Nevada.</p>
     <p><a href="https://www.google.com" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
 </div>
 
+@{
+    var db = WADLAB4.Models.ApplicationDbContext.Create();
+    List<WADLAB4.Models.News> nws = db.Noutati.ToList();
+}
+
 <div class="row">
     <h1>News:</h1>
-    <div class="col-md-4">
-        <h2>Facultatea se inchide din cauza Extraterestrilor</h2>
-        <p>
-            Am fost invadati, studentii sunt rugati sa nu vina la cursuri in perioada 25.04.2018 - 25.12.2018
-        </p>
-        <p><a class="btn btn-default" href="https://www.google.com">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>MARSers Internship</h2>
-        <p>Cercetatorii nostrii de pe baza martiana recruteaza oameni dornici de experimente. Aplica aici:</p>
-        <p><a class="btn btn-default" href="https://www.google.com">Aplicatie &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Pistol cu laser gasit in Aula A.A.A</h2>
-        <p>In aula A.A.A a fost gasit un pistol cu raza laser pe baza de Gruntonium, despagubitul este rugat sa vina la obiecte pierdute pentru a-si recupera jucaria.</p>
-        <p><a class="btn btn-default" href="https://www.google.com">Learn more &raquo;</a></p>
-    </div>
+    @{ 
+        foreach (var nz in nws)
+        {
+            <div class="col-md-4">
+                <h2>@nz.title</h2>
+                <p>
+                    @nz.message
+                </p>
+                <p><a class="btn btn-default" href="@nz.link">Afla mai multe! &raquo;</a></p>
+            </div>
+        }
+    }
 </div>
 <br /><br />
 <h3>Post News: (teacher view)</h3>

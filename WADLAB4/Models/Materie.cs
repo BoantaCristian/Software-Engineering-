@@ -7,6 +7,8 @@ namespace WADLAB4.Models
 {
     public class Materie
     {
+        public int id { get; set; }
+
         public string Nume { get; set; }
 
         public int TotalOre { get; set; }

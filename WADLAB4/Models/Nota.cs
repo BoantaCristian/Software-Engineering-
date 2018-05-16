@@ -7,6 +7,8 @@ namespace WADLAB4.Models
 {
     public class Nota
     {
+        public int id { get; set; }
+
         public long Student { get; set; }
 
         public string Materie { get; set; }
