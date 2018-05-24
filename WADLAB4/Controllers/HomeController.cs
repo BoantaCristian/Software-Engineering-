@@ -74,5 +74,11 @@ namespace WADLAB4.Controllers
 
             return View();
         }
+
+        public void DeleteCurs()
+        {
+            var db = WADLAB4.Models.ApplicationDbContext.Create();
+            //var idMat = db.Materii.Where(m => m.Nume == );
+        }
     }
 }

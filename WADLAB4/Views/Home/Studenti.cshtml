@@ -9,87 +9,85 @@
     }
 </style>
 
+@{ 
+    var db = WADLAB4.Models.ApplicationDbContext.Create();
+}
 
 <h2>Studenti</h2>
 <h3>Specializare:</h3>
-<select class="button">
-    <option value="s1">Spec 1</option>
-    <option value="s2">Spec 2</option>
-    <option value="sx">Spec x</option>
-</select>
 
-<h3>Anul I</h3>
-<table class="mytable">
-    <tr>
-        <th>Nume Student</th>
-        <th>CNP</th>
-        <th>Forma Invatamant</th>
-    </tr>
-    <tr>
-        <th>Stud 1</th>
-        <th>X</th>
-        <th>Buget</th>
-    </tr>
-    <tr>
-        <th>Stud 2</th>
-        <th>X</th>
-        <th>Taxa</th>
-    </tr>
-</table>
+<form runnat="server">
+    @{ 
+        List<WADLAB4.Models.Specializare> specs = db.Specs.ToList();
 
-<h3>Anul II</h3>
-<table class="mytable">
-    <tr>
-        <th>Nume Student</th>
-        <th>CNP</th>
-        <th>Forma Invatamant</th>
-    </tr>
-    <tr>
-        <th>Stud 1</th>
-        <th>X</th>
-        <th>Buget</th>
-    </tr>
-    <tr>
-        <th>Stud 2</th>
-        <th>X</th>
-        <th>Taxa</th>
-    </tr>
-</table>
+        foreach (var spec in specs)
+        {
+            <input runnat="server" type="radio" id="specch" name="special" value="spec.id" /><br />
+        }
+    }
+    <button runnat="server" type="submit">See Students</button>
+</form>
 
-<h3>Anul III</h3>
-<table class="mytable">
-    <tr>
-        <th>Nume Student</th>
-        <th>CNP</th>
-        <th>Forma Invatamant</th>
-    </tr>
-    <tr>
-        <th>Stud 1</th>
-        <th>X</th>
-        <th>Buget</th>
-    </tr>
-    <tr>
-        <th>Stud 2</th>
-        <th>X</th>
-        <th>Taxa</th>
-    </tr>
-</table>
+@{
+    List<WADLAB4.Models.Student> studSpec = db.Studenti.Where(m => m.Specializare == Request.Form["specch"]).ToList();
 
-<h3>Anul IV</h3>
-<table class="mytable">
-    <tr>
-        <th>Nume Student</th>
-        <th>CNP</th>
-        <th>Forma Invatamant</th>
-    </tr>
-    <tr>
-        <th>Stud 1</th>
-        <th>X</th>
-        <th>Buget</th>
-    </tr>
-    <tr>
-        <th>Stud 2</th>
-        <th>X</th>
-        <th>Taxa</th>
-    </tr>
-</table>
+    <table class="mytable">
+        An 1<br />
+        @foreach (var stud in studSpec)
+        {
+            <tr>
+            @if (stud.An == 1)
+            {
+                <th>Nume: @stud.Nume @stud.Prenume</th><br />
+                <th>CNP: @stud.CNP</th><br />
+                <th>Credite: @stud.Credite</th><br />
+            }
+            </tr>
+        }
+        An 2<br />
+        @foreach (var stud in studSpec)
+            {
+            <tr>
+                @if (stud.An == 2)
+                {
+                    <th>Nume: @stud.Nume @stud.Prenume</th>
+                    <br />
+                    <th>CNP: @stud.CNP</th>
+                    <br />
+                    <th>Credite: @stud.Credite</th>
+                    <br />
+                }
+            </tr>
+        }
+        An 3 <br />
+        @foreach (var stud in studSpec)
+            {
+            <tr>
+                @if (stud.An == 3)
+                {
+                    <th>Nume: @stud.Nume @stud.Prenume</th>
+                    <br />
+                    <th>CNP: @stud.CNP</th>
+                    <br />
+                    <th>Credite: @stud.Credite</th>
+                    <br />
+                }
+            </tr>
+        }
+        An 4<br />
+        @foreach (var stud in studSpec)
+            {
+            <tr>
+                @if (stud.An == 4)
+                {
+                    <th>Nume: @stud.Nume @stud.Prenume</th>
+                    <br />
+                    <th>CNP: @stud.CNP</th>
+                    <br />
+                    <th>Credite: @stud.Credite</th>
+                    <br />
+                }
+            </tr>
+        }
+    </table>
+}

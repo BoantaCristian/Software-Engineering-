@@ -16,5 +16,9 @@ namespace WADLAB4.Models
         public int Credite { get; set; }
 
         public long Profesor { get; set; }
+
+        public int Spec { get; set; }
+
+        public int An { get; set; }
     }
 }

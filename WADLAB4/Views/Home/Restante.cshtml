@@ -23,56 +23,39 @@
     }
 </style>
 
+@{ 
+    var db = WADLAB4.Models.ApplicationDbContext.Create();
+}
+
 <h2>Restante(student view)</h2>
 <div class="restante">
-	<p>
-		<label>Anul 1</label> <br />
-		<div id="cell" class="btn btn-default">
-			<div>
-				Materie 1: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 2: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 3: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 4: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-			</div>
-		</div>
-	</p>
-	&nbsp;
-	<p>
-		<label>Anul 2</label> <br />
-		<div id="cell" class="btn btn-default">
-			<div>
-				Materie 1: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 2: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 3: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 4: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-			</div>
-		</div>
-	</p>
-	&nbsp;
-	<p>
-		<label>Anul 3</label> <br />
-		<div id="cell" class="btn btn-default">
-			<div>
-				Materie 1: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 2: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 3: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 4: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-			</div>
-		</div>
-	</p>
-	&nbsp;
-	<p>
-		<label>Anul 4</label> <br />
-		<div id="cell" class="btn btn-default">
-			<div>
-				Materie 1: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 2: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 3: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 4: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-			</div>
-		</div>
-	</p>
-	&nbsp;
+    @{ 
+        //var eu = db.Student.Where(m => m.id == myid);
+        //List<WADLAB4.Models.Nota> notelemele = db.Note.Where(m => m.student == eu.Nume);
+        /*
+        <p>
+            <div id="cell" class="btn btn-default">
+                @{ 
+                    foreach(var nota in notelemele)
+                    {
+                        <label>@nota.Materie : @nota.Calificativ</label><br />
+                    }
+                }
+            </div>
+        </p>
+        */
+        List<WADLAB4.Models.Nota> note = db.Note.Where(m => m.Calificativ < 5).ToList();
+        <p>
+            <div id="cell" class="btn btn-default">
+                @{ 
+                    foreach(var nota in note)
+                    {
+                        <label>@nota.Materie : @nota.Calificativ</label><br />
+                    }
+                }
+            </div>
+        </p>
+    }
 </div>
 
 <h2>Restante(teacher view)</h2>

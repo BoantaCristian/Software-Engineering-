@@ -195,14 +195,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201803271406362_InitialMigrations.cs" />
-    <Compile Include="Migrations\201803271406362_InitialMigrations.Designer.cs">
-      <DependentUpon>201803271406362_InitialMigrations.cs</DependentUpon>
+    <Compile Include="Migrations\201805241416514_Initial.cs" />
+    <Compile Include="Migrations\201805241416514_Initial.Designer.cs">
+      <DependentUpon>201805241416514_Initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201805162224192_Initial.cs" />
-    <Compile Include="Migrations\201805162224192_Initial.Designer.cs">
-      <DependentUpon>201805162224192_Initial.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Event.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -284,14 +281,6 @@
     <Content Include="Views\Home\Studenti.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201803271406362_InitialMigrations.resx">
-      <DependentUpon>201803271406362_InitialMigrations.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805162224192_Initial.resx">
-      <DependentUpon>201805162224192_Initial.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
   </ItemGroup>
   <ItemGroup>
@@ -303,6 +292,11 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201805241416514_Initial.resx">
+      <DependentUpon>201805241416514_Initial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
