@@ -2,94 +2,76 @@
 @{
     ViewBag.Title = "Studenti";
 }
-
 <style>
+
     .mytable {
         width: 100%;
+        top: 30px;
+    }
+
+    .camp {
+        width: 200px;
+        border-left: solid;
+        padding: 10px;
+        border-color: #eee;
+    }
+
+    .categ {
+        width: 200px;
+        border-bottom: solid;
+        position: center;
+        padding: 14px;
+        border-color: #eee;
     }
 </style>
 
+@{
+    var db = WADLAB4.Models.ApplicationDbContext.Create();
+}
 
 <h2>Studenti</h2>
-<h3>Specializare:</h3>
+<h3>Ordonare</h3>
+
+
 <select class="button">
-    <option value="s1">Spec 1</option>
-    <option value="s2">Spec 2</option>
-    <option value="sx">Spec x</option>
+    <option value="s1">An</option>
+    <option value="s2">Alfabetic</option>
+    <option value="s3">Specializare</option>
 </select>
 
-<h3>Anul I</h3>
-<table class="mytable">
-    <tr>
-        <th>Nume Student</th>
-        <th>CNP</th>
-        <th>Forma Invatamant</th>
-    </tr>
-    <tr>
-        <th>Stud 1</th>
-        <th>X</th>
-        <th>Buget</th>
-    </tr>
-    <tr>
-        <th>Stud 2</th>
-        <th>X</th>
-        <th>Taxa</th>
-    </tr>
-</table>
+@{
+    List<WADLAB4.Models.Student> student = db.Studenti.ToList();
+}
 
-<h3>Anul II</h3>
-<table class="mytable">
-    <tr>
-        <th>Nume Student</th>
-        <th>CNP</th>
-        <th>Forma Invatamant</th>
-    </tr>
-    <tr>
-        <th>Stud 1</th>
-        <th>X</th>
-        <th>Buget</th>
-    </tr>
-    <tr>
-        <th>Stud 2</th>
-        <th>X</th>
-        <th>Taxa</th>
-    </tr>
-</table>
+@for (int i = 1; i <= 4; i++)
+{
+    <h3> <b>Anul @(i)</b></h3>
+    <table class="mytable">
+        <tr>
+            <th class="categ">Nume</th>
+            <th class="categ">CNP</th>
+            <th class="categ">Credite</th>
+            <th class="categ">Specializare</th>
+        </tr>
+    </table>
+    <table class="mytable">
+        @foreach (var stud in student)
+        {
+            <tr>
+                @if (stud.An == i)
+                {
 
-<h3>Anul III</h3>
-<table class="mytable">
-    <tr>
-        <th>Nume Student</th>
-        <th>CNP</th>
-        <th>Forma Invatamant</th>
-    </tr>
-    <tr>
-        <th>Stud 1</th>
-        <th>X</th>
-        <th>Buget</th>
-    </tr>
-    <tr>
-        <th>Stud 2</th>
-        <th>X</th>
-        <th>Taxa</th>
-    </tr>
-</table>
 
-<h3>Anul IV</h3>
-<table class="mytable">
-    <tr>
-        <th>Nume Student</th>
-        <th>CNP</th>
-        <th>Forma Invatamant</th>
-    </tr>
-    <tr>
-        <th>Stud 1</th>
-        <th>X</th>
-        <th>Buget</th>
-    </tr>
-    <tr>
-        <th>Stud 2</th>
-        <th>X</th>
-        <th>Taxa</th>
-    </tr>
-</table>
+                    <th class="camp"> @stud.Nume @stud.Prenume</th>
+
+                    <th class="camp">@stud.CNP</th>
+
+                    <th class="camp">@stud.Credite</th>
+
+                    <th class="camp"> @stud.Specializare</th>
+
+                }
+            </tr>
+        }
+    </table>
+}

@@ -31,7 +31,7 @@ namespace WADLAB4.Models
         public DbSet<Specializare> Specs { get; set; }
         public DbSet<Materie> Materii { get; set; }
         public DbSet<Profesor> Profesori { get; set; }
-        public DbSet<Nota> Note { get; set; }
+        public DbSet<Note> Grades { get; set; }
         public DbSet<News> Noutati { get; set; }
 
 

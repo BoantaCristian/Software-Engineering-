@@ -364,3 +364,153 @@ D:\Facultate\Proiect\WADLAB4\obj\Debug\WADLAB4.csproj.CoreCompileInputs.cache
 D:\Facultate\Proiect\WADLAB4\obj\Debug\WADLAB4.dll
 D:\Facultate\Proiect\WADLAB4\obj\Debug\WADLAB4.pdb
 D:\Facultate\Proiect\WADLAB4\obj\Debug\WADLAB4.Models.Initial.resources
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\ApplicationInsights.config
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\WADLAB4.dll.config
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\WADLAB4.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\WADLAB4.pdb
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Antlr3.Runtime.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\EntityFramework.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\EntityFramework.SqlServer.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.AI.Web.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.Owin.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.Owin.Security.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Newtonsoft.Json.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Owin.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\System.Web.Helpers.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\System.Web.Mvc.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\System.Web.Optimization.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\System.Web.Razor.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\System.Web.WebPages.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\System.Web.WebPages.Razor.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\WebGrease.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\System.Web.Helpers.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\System.Web.Mvc.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\System.Web.Optimization.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\System.Web.Razor.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\System.Web.WebPages.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\System.Web.WebPages.Razor.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Antlr3.Runtime.pdb
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Newtonsoft.Json.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\EntityFramework.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\EntityFramework.SqlServer.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.Owin.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.Owin.Security.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\bin\Microsoft.AI.Web.xml
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\obj\Debug\WADLAB4.csprojAssemblyReference.cache
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\obj\Debug\WADLAB4.Models.InitialMigrations.resources
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\obj\Debug\WADLAB4.Models.Initial.resources
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\obj\Debug\WADLAB4.csproj.GenerateResource.cache
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\obj\Debug\WADLAB4.csproj.CoreCompileInputs.cache
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\obj\Debug\WADLAB4.csproj.CopyComplete
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\obj\Debug\WADLAB4.dll
+C:\Users\Boanta\Desktop\SE BUN\Software-Engineering--master\WADLAB4\obj\Debug\WADLAB4.pdb
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\ApplicationInsights.config
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\WADLAB4.dll.config
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\WADLAB4.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\WADLAB4.pdb
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Antlr3.Runtime.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\EntityFramework.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\EntityFramework.SqlServer.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.AI.Web.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.Owin.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.Owin.Security.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Newtonsoft.Json.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Owin.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\System.Web.Helpers.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\System.Web.Mvc.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\System.Web.Optimization.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\System.Web.Razor.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\System.Web.WebPages.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\System.Web.WebPages.Razor.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\WebGrease.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\System.Web.Helpers.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\System.Web.Mvc.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\System.Web.Optimization.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\System.Web.Razor.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\System.Web.WebPages.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\System.Web.WebPages.Razor.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Antlr3.Runtime.pdb
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Newtonsoft.Json.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\EntityFramework.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\EntityFramework.SqlServer.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.Owin.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.Owin.Security.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\bin\Microsoft.AI.Web.xml
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\obj\Debug\WADLAB4.csprojAssemblyReference.cache
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\obj\Debug\WADLAB4.Models.InitialMigrations.resources
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\obj\Debug\WADLAB4.Models.Initial.resources
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\obj\Debug\WADLAB4.csproj.GenerateResource.cache
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\obj\Debug\WADLAB4.csproj.CoreCompileInputs.cache
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\obj\Debug\WADLAB4.csproj.CopyComplete
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\obj\Debug\WADLAB4.dll
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\obj\Debug\WADLAB4.pdb
