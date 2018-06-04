@@ -591,3 +591,6 @@ D:\Facultate\UltimaVers\WADLAB4\obj\Debug\WADLAB4.pdb
 D:\Facultate\UltimaVers\WADLAB4\obj\Debug\WADLAB4.Models.Initial2.resources
 D:\Facultate\UltimaVers\WADLAB4\obj\Debug\WADLAB4.Models.v3.resources
 D:\Facultate\UltimaVers\WADLAB4\obj\Debug\WADLAB4.Models.v4.resources
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\obj\Debug\WADLAB4.Models.Initial2.resources
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\obj\Debug\WADLAB4.Models.v3.resources
+C:\Users\Boanta\Desktop\Software-Engineering-\WADLAB4\obj\Debug\WADLAB4.Models.v4.resources

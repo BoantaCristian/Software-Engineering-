@@ -22,7 +22,7 @@
 
 <div class="row">
     <h1>News:</h1>
-    @{ 
+    @{
         foreach (var nz in nws)
         {
             <div class="col-md-4">
@@ -36,10 +36,30 @@
     }
 </div>
 <br /><br />
+
 <h3>Post News: (teacher view)</h3>
-<form runat="server">
-    <label>Title: </label><input type="text" name="titlu" runat="server"/><br />
-    <label>Link: </label><input type="text" name="link" runat="server"/><br />
-    <textarea rows="4" width=25% cols="40" placeholder="Insert news here" name="mes" runat="server"></textarea><br />
-    <button type="submit" onclick="AddNew" runat="server">Post</button>
+<form id="myform" runat="server" action="page.aspx">
+    <label>Title: </label><input type="text" id="titlu" runat="server" name="title" /><br />
+    <label>Link: </label><input type="text" id="link" runat="server" /><br />
+    <textarea rows="4" width=25% cols="40" placeholder="Insert news here" id="message" name="mes" runat="server"></textarea><br />
+    <button type="submit" value="Submit" runat="server">Post</button>
 </form>
+
+<script>
+    var data = document.getElementById("myform");
+    data.onsubmit = function (e) {
+        e.preventDefault();
+    }
+
+    var mysql = require('trb instalat mysql driver');//nu merge
+
+    var con = mysql.createConnection({
+        host: "localhost",
+        database: "aspnet-WADLAB4-20180320044856"
+    });
+
+    con.connect(function (err) {
+        var sql = "INSERT INTO customers (id, title, message, link) VALUES (1, myform.title.value, myform.message, myform.link.value)";
+        con.query(sql, function (err, result));
+    });
+</script>

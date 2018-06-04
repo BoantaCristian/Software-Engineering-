@@ -8,6 +8,10 @@
         display: table;
         width: 40%;
     }
+    .mytable2 {
+        display: table;
+        width: 100%;
+    }
 
         .mytable p {
             display: table-cell;
@@ -15,6 +19,19 @@
 
     .container label {
         width: 20%;
+    }
+    .categ {
+        width: 200px;
+        border-bottom: solid;
+        position: center;
+        padding: 14px;
+        border-color: #eee;
+    }
+    .camp {
+        width: 200px;
+        border-left: solid;
+        padding: 10px;
+        border-color: #eee;
     }
 </style>
 
@@ -28,8 +45,8 @@
         <h2>Notele mele:(student view)</h2>
         <table class="mytable">
             <tr>
-                <th>Materie</th>
-                <th>Nota</th>
+                <th class="categ">Materie</th>
+                <th class="categ">Nota</th>
                 <td></td>
             </tr>
             @{
@@ -41,8 +58,8 @@
                     foreach (var grd in mygGrades)
                     {
                         <tr>
-                            <td>@grd.Materie</td>
-                            <td>@grd.Calificativ</td>
+                            <td class="camp">@grd.Materie</td>
+                            <td class="camp">@grd.Calificativ</td>
                         </tr>
                     }
                 }
@@ -52,25 +69,25 @@
 
     <div class="prof">
         <h2>Note(Teacher view)</h2>
-        <table class="mytable">
+        <table class="mytable2">
             <tr>
-                <th>ID Nota</th>
-                <th>Nume Prenume</th>
-                <th>Materie</th>
-                <th>Nota</th>
+                <th class="categ">ID Nota</th>
+                <th class="categ">Nume Prenume</th>
+                <th class="categ">Materie</th>
+                <th class="categ">Nota</th>
             </tr>
             @{
                 List<WADLAB4.Models.Note> grade = db.Grades.ToList();
                 foreach (var grd in grade)
                 {
                     <tr>
-                        <td> @grd.Id</td>
+                        <td class="camp">@grd.Id</td>
                         @{
                             List<WADLAB4.Models.Student> stud = db.Studenti.Where(m => m.CNP == grd.Student).ToList();
                         }
-                        <td>@stud.First().Nume @stud.First().Prenume</td>
-                        <td>@grd.Materie</td>
-                        <td> @grd.Calificativ</td>
+                        <td class="camp">@stud.First().Nume @stud.First().Prenume</td>
+                        <td class="camp">@grd.Materie</td>
+                        <td class="camp">@grd.Calificativ</td>
                     </tr>
                             }
             }

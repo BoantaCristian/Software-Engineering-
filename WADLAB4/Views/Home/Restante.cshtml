@@ -34,6 +34,20 @@
     .mytable {
         width: 80%;
     }
+    .camp {
+        width: 200px;
+        border-left: solid;
+        padding: 10px;
+        border-color: #eee;
+    }
+
+    .categ {
+        width: 200px;
+        border-bottom: solid;
+        position: center;
+        padding: 14px;
+        border-color: #eee;
+    }
 </style>
 
 @{
@@ -73,8 +87,8 @@
     <h3>Materie: @myMat</h3>
     <table class="mytable">
         <tr>
-            <th>Nume Student</th>
-            <th>Nota</th>
+            <th class="categ">Nume Student</th>
+            <th class="categ">Nota</th>
         </tr>
         @{
             List<WADLAB4.Models.Note> grds = db.Grades.Where(m => m.Materie == myMat && m.Calificativ < 5).ToList();
@@ -82,8 +96,8 @@
             {
                 List<WADLAB4.Models.Student> stud = db.Studenti.Where(m => m.CNP == grd.Student).ToList();
                 <tr>
-                    <td>@stud.First().Nume @stud.First().Prenume</td>
-                    <td>@grd.Calificativ</td>
+                    <td class="camp">@stud.First().Nume @stud.First().Prenume</td>
+                    <td class="camp">@grd.Calificativ</td>
                 </tr>
             }
         }

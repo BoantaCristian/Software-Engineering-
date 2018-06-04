@@ -23,6 +23,7 @@
     .mytable {
         display: table;
         width: 100%;
+        height:100%;
         align-content: center;
     }
 
@@ -33,6 +34,13 @@
     .mytable p {
         display: table-cell;
     }
+    .categ {
+        width: 400px;
+        border-bottom: solid;
+        position: center;
+        padding: 13px;
+        border-color: #eee;
+    }
 </style>
 
 @{
@@ -42,22 +50,32 @@
 <h2>Cursuri pentru speializarea: @db.Specs.Where(m => m.id == mySpecID).First().Nume (student view)</h2>
 
 <div class="cursuri-student">
-@{
-    for (int an = 1; an <= 4; an++)
-    {
-        <div class="mytable">
-            <div class="list">
-                @{
-                    List<WADLAB4.Models.Materie> mats = db.Materii.Where(m => m.An == an && mySpecID == m.IDSpec).ToList();
-                    foreach (var mat in mats)
-                    {
-                        <p>@mat.Nume: Credite->@mat.Credite, Profesor->@mat.Profesor, Ore->@mat.TotalOre, Semestru->@mat.Sem</p>
+    @{
+        <label class="categ">Materie</label>
+        <label class="categ">Credite</label>
+        <label class="categ">Profesor</label>
+        <label class="categ">Ore</label>
+        <label class="categ">Semestru</label>
+        for (int an = 1; an <= 4; an++)
+        {
+            <div class="mytable">
+                <table>
+                    <tr>@{
+                        List<WADLAB4.Models.Materie> mats = db.Materii.Where(m => m.An == an && mySpecID == m.IDSpec).ToList();
+                        foreach (var mat in mats)
+                        {
+                            <th><label class="categ">@mat.Nume</label></th>
+                            <th><label class="categ">@mat.Credite</label></th>
+                            <th><label class="categ">@mat.Profesor</label></th>
+                            <th><label class="categ">@mat.TotalOre</label></th>
+                            <th><label class="categ">@mat.Sem</label></th>
+                        }
                     }
-                }
+                    </tr>
+                </table>
             </div>
-        </div>
+        }
     }
-}
 </div>
 <br /><br />
 
