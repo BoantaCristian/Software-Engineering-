@@ -1,9 +1,9 @@
 ﻿
+
 @{
     ViewBag.Title = "Note";
 }
 <style>
-
     .mytable {
         display: table;
         width: 40%;
@@ -17,89 +17,81 @@
         width: 20%;
     }
 </style>
-<div class="student">
-    <h2>Note(student view)</h2>
-    <table class="mytable">
-        <tr>
-            <th>Materie</th>
-            <th>Nota</th>
-            <th>Link</th>
-        </tr>
-        <tr></tr>
-        <tr>
-            <th>Materie 1</th>
-            <th>X</th>
-            <th><a href="https://www.google.com">Here</a></th>
-        </tr>
-        <tr>
-            <th>Materie 2</th>
-            <th>X</th>
-            <th><a href="https://www.google.com">Here</a></th>
-        </tr>
-    </table>
-</div>
 
 @{
     var db = WADLAB4.Models.ApplicationDbContext.Create();
-    List<WADLAB4.Models.Note> grade = db.Grades.ToList();
 }
-
-<div class="prof">
-    <h2>Note(Teacher view)</h2>
-    <h3>Materie :</h3>
-    <select class="button">
-        <option value="m1">Materie 1</option>
-        <option value="m2">Materie 2</option>
-        <option value="mx">Materie x</option>
-    </select>
-
-    <table class="mytable">
-        @foreach (var grd in grade)
-        {
+<html>
+<body>
+    <asp:Textbox id="text1"/>
+    <div class="student">
+        <h2>Notele mele:(student view)</h2>
+        <table class="mytable">
             <tr>
-                <th> @grd.Id</th>
-
-                <th>@grd.Student</th>
-
-                <th>@grd.Materie</th>
-
-                <th> @grd.Calificativ</th>
-
+                <th>Materie</th>
+                <th>Nota</th>
+                <td></td>
             </tr>
-        }
-    </table>
+            @{
+                var myCnp = 2334455169803;
+                List<WADLAB4.Models.Note> mygGrades = db.Grades.Where(m => m.Student == myCnp).ToList();
 
-    <table class="mytable">
-        <tr>
-            <th>Nume Student</th>
-            <th>Nota</th>
-            <th>Link</th>
-        </tr>
-        <tr>
-            <th>Stud 1</th>
-            <th>X</th>
-            <th><a href="https://www.google.com">Here</a></th>
-        </tr>
-        <tr>
-            <th>Stud 2</th>
-            <th>X</th>
-            <th><a href="https://www.google.com">Here</a></th>
-        </tr>
-    </table>
-    <h2>Introduceti Studentul si nota acestuia</h2><br /><br />
-    <div class="container">
-        <form id="Nota">
-            <p>
-                <label>CNP Student: </label><input type="text" id="cnp" /> <br />
-            </p>
-            <p>
-                <label>Materia: </label><input type="text" id="materie" /><br />
-            </p>
-            <p>
-                <label>Nota: </label><input type="number" min="1" max="10" id="nota" /><br />
-            </p>
-            <button type="submit" value="Submit">Upload nota student</button><br />
-        </form>
-
+                if (mygGrades.Count != 0)
+                {
+                    foreach (var grd in mygGrades)
+                    {
+                        <tr>
+                            <td>@grd.Materie</td>
+                            <td>@grd.Calificativ</td>
+                        </tr>
+                    }
+                }
+            }
+        </table>
     </div>
-</div>
+
+    <div class="prof">
+        <h2>Note(Teacher view)</h2>
+        <table class="mytable">
+            <tr>
+                <th>ID Nota</th>
+                <th>Nume Prenume</th>
+                <th>Materie</th>
+                <th>Nota</th>
+            </tr>
+            @{
+                List<WADLAB4.Models.Note> grade = db.Grades.ToList();
+                foreach (var grd in grade)
+                {
+                    <tr>
+                        <td> @grd.Id</td>
+                        @{
+                            List<WADLAB4.Models.Student> stud = db.Studenti.Where(m => m.CNP == grd.Student).ToList();
+                        }
+                        <td>@stud.First().Nume @stud.First().Prenume</td>
+                        <td>@grd.Materie</td>
+                        <td> @grd.Calificativ</td>
+                    </tr>
+                            }
+            }
+        </table>
+
+        <h2>Introduceti Studentul si nota acestuia</h2><br /><br />
+        <div class="container">
+            <form id="Nota" runat="server">
+                <p>
+                    <label>CNP Student: </label><input type="number" id="cnp" runat="server" /> <br />
+                </p>
+                <p>
+                    <label>Materia: </label><input type="text" id="nMat" runat="server" /><br />
+                </p>
+                <p>
+                    <label>Nota: </label><input type="number" min="1" max="10" id="cnota" runat="server" /><br />
+                </p>
+                <button type="submit" value="Submit" runat="server" onclick="AddGrade">Upload nota student</button><br />
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+

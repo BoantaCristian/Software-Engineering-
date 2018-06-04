@@ -3,7 +3,6 @@
     ViewBag.Title = "Studenti";
 }
 <style>
-
     .mytable {
         width: 100%;
         top: 30px;
@@ -30,14 +29,6 @@
 }
 
 <h2>Studenti</h2>
-<h3>Ordonare</h3>
-
-
-<select class="button">
-    <option value="s1">An</option>
-    <option value="s2">Alfabetic</option>
-    <option value="s3">Specializare</option>
-</select>
 
 @{
     List<WADLAB4.Models.Student> student = db.Studenti.ToList();

@@ -4,102 +4,88 @@
 }
 
 <style>
-	.restante {
-		display: table;
-		width: 100%;
-	}
-	.restante p {
-		display: table-row;
-	}
-	.restante label {
-		display: table-cell;
-		text-align: center;
-	}
-	#cell {
-		display: table-cell;
-	}
+    .restante {
+        display: table;
+        width: 100%;
+    }
+
+        .restante p {
+            display: table-row;
+        }
+
+        .restante label {
+            display: table-cell;
+            text-align: center;
+        }
+
+    #cell {
+        display: table;
+    }
+
+        #cell label {
+            display: table-cell;
+            text-align: center;
+        }
+
+    #nota {
+        text-align: center;
+    }
+
     .mytable {
         width: 80%;
     }
 </style>
 
+@{
+    var db = WADLAB4.Models.ApplicationDbContext.Create();
+    var myCnp = 2334455169803;
+}
+
 <h2>Restante(student view)</h2>
 <div class="restante">
-	<p>
-		<label>Anul 1</label> <br />
-		<div id="cell" class="btn btn-default">
-			<div>
-				Materie 1: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 2: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 3: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 4: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-			</div>
-		</div>
-	</p>
-	&nbsp;
-	<p>
-		<label>Anul 2</label> <br />
-		<div id="cell" class="btn btn-default">
-			<div>
-				Materie 1: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 2: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 3: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 4: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-			</div>
-		</div>
-	</p>
-	&nbsp;
-	<p>
-		<label>Anul 3</label> <br />
-		<div id="cell" class="btn btn-default">
-			<div>
-				Materie 1: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 2: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 3: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 4: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-			</div>
-		</div>
-	</p>
-	&nbsp;
-	<p>
-		<label>Anul 4</label> <br />
-		<div id="cell" class="btn btn-default">
-			<div>
-				Materie 1: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 2: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 3: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-				Materie 4: NOTAX <a href="https://www.google.com">Link catre curs</a><br />
-			</div>
-		</div>
-	</p>
-	&nbsp;
+    <h3>Restantele Mele:</h3>
+    @{
+        List<WADLAB4.Models.Note> myRest = db.Grades.Where(m => m.Calificativ < 5 && m.Student == myCnp).ToList();
+        if (myRest.Count != 0)
+        {
+            <p>
+                <div id="cell" class="btn btn-default">
+                    <div id="nota">
+                        @{
+                            foreach (var grd in myRest)
+                            {
+                                <label>Materie: @grd.Materie </label>
+                                <label> - Nota: @grd.Calificativ</label><br />
+                            }
+                        }
+                    </div>
+                </div>
+            </p>
+                            }
+    }
 </div>
 
 <h2>Restante(teacher view)</h2>
+@{
+    var myMat = "Corelatii Complexe";
+}
 <div class="restante-prof">
-    <h3>Materie: </h3>
-    <select class="button">
-        <option value="m1">Materie 1</option>
-        <option value="m2">Materie 2</option>
-        <option value="etc">Etc</option>
-    </select>
-
+    <h3>Materie: @myMat</h3>
     <table class="mytable">
         <tr>
             <th>Nume Student</th>
             <th>Nota</th>
-            <th>Data exam</th>
         </tr>
-        <tr>
-            <th>Stud 1</th>
-            <th>2</th>
-            <th>12.03.2017</th>
-        </tr>
-        <tr>
-            <th>Stud 2</th>
-            <th>Abs.</th>
-            <th>12.12.2012</th>
-        </tr>
+        @{
+            List<WADLAB4.Models.Note> grds = db.Grades.Where(m => m.Materie == myMat && m.Calificativ < 5).ToList();
+            foreach (var grd in grds)
+            {
+                List<WADLAB4.Models.Student> stud = db.Studenti.Where(m => m.CNP == grd.Student).ToList();
+                <tr>
+                    <td>@stud.First().Nume @stud.First().Prenume</td>
+                    <td>@grd.Calificativ</td>
+                </tr>
+            }
+        }
     </table>
-
 </div>

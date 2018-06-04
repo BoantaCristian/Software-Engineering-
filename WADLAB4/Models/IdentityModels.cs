@@ -25,8 +25,7 @@ namespace WADLAB4.Models
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
-
-        public DbSet<Event> Events { get; set; }
+        
         public DbSet<Student> Studenti { get; set; }
         public DbSet<Specializare> Specs { get; set; }
         public DbSet<Materie> Materii { get; set; }

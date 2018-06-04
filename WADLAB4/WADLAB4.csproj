@@ -203,8 +203,19 @@
     <Compile Include="Migrations\201805162224192_Initial.Designer.cs">
       <DependentUpon>201805162224192_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806021537374_Initial2.cs" />
+    <Compile Include="Migrations\201806021537374_Initial2.Designer.cs">
+      <DependentUpon>201806021537374_Initial2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806021546481_v3.cs" />
+    <Compile Include="Migrations\201806021546481_v3.Designer.cs">
+      <DependentUpon>201806021546481_v3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201806021653253_v4.cs" />
+    <Compile Include="Migrations\201806021653253_v4.Designer.cs">
+      <DependentUpon>201806021653253_v4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\Event.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Materie.cs" />
@@ -277,7 +288,6 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Home\Calendar.cshtml" />
     <Content Include="Views\Home\Cursuri.cshtml" />
     <Content Include="Views\Home\Note.cshtml" />
     <Content Include="Views\Home\Restante.cshtml" />
@@ -289,6 +299,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201805162224192_Initial.resx">
       <DependentUpon>201805162224192_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806021537374_Initial2.resx">
+      <DependentUpon>201806021537374_Initial2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806021546481_v3.resx">
+      <DependentUpon>201806021546481_v3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806021653253_v4.resx">
+      <DependentUpon>201806021653253_v4.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

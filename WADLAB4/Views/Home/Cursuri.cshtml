@@ -4,158 +4,111 @@
 }
 
 <style>
-	.onclick-menu {
-		position: relative;
-		display: inline-block;
-		background-color: #AFAFAF;
-	}
-	.onclick-menu:before {
-		color: white;
-		margin: 5px 5px 15px 10px;
-	}
-	.om1:before {
-		content: "Anul 1";
-	}
-	.om2:before {
-		content: "Anul 2";
-	}
-	.om3:before {
-		content: "Anul 3";
-	}
-	.om4:before {
-		content: "Anul 4";
-	}
-	.onclick-menu:focus .onclick-menu-content {
-		visibility: visible;
-		display: block;
-	}
-	.onclick-menu-content {
-		z-index: 1;
-		position: absolute;
-		border-style: outset;
-		border: 3px solid #C3C3C3;
-		width: 300px;
-		background-color: #C3C3C3;
-		visibility: hidden;
-		transition: visibility 0.1s;
-	}
-	ul {
-		color: white;
-	}
-	.container form {
-		display: table;
-	}
-	.container input {
-		display: table-cell;
-	}
-	.container label {
-		display: table-cell;
-	}
-	.container p {
-		display: table-row;
-	}
-	.cursuri-student {
-		display: table;
-		width: 100%;
-	}
-	.mytable {
-		display: table;
-		width: 50%;
-		align-content: center;
-	}
-	.in2 {
-		display: table-cell;
-	}
-	.in3 {
-		display: table-row;
-	}
-	.mytable label {
-		display: table-cell;
-	}
-	.mytable p {
-		display: table-cell;
-	}
+    .container form {
+        display: table;
+    }
+
+    .container input {
+        display: table-cell;
+    }
+
+    .container label {
+        display: table-cell;
+    }
+
+    .container p {
+        display: table-row;
+    }
+
+    .mytable {
+        display: table;
+        width: 100%;
+        align-content: center;
+    }
+
+    .list {
+        display: table-row;
+    }
+
+    .mytable p {
+        display: table-cell;
+    }
 </style>
 
-<h2>Cursuri(student view)</h2>
+@{
+    var db = WADLAB4.Models.ApplicationDbContext.Create();
+    var mySpecID = 1;
+}
+<h2>Cursuri pentru speializarea: @db.Specs.Where(m => m.id == mySpecID).First().Nume (student view)</h2>
 
 <div class="cursuri-student">
-	<div tabindex="0" class="in2 btn btn-default onclick-menu om1"> 
-		<div id="list" class="onclick-menu-content">
-			Materie 1: <a href="https://www.google.com">Link catre curs</a><br />
-			Materie 2: <a href="https://www.google.com">Link catre curs</a><br />
-			Materie 3: <a href="https://www.google.com">Link catre curs</a><br />
-			Materie 4: <a href="https://www.google.com">Link catre curs</a><br />
-		</div>
-	</div>
-	&nbsp;
-	<div tabindex="0" class="in2 btn btn-default onclick-menu om2"> 
-		<div id="list" class="onclick-menu-content">
-			Materie 1: <a href="https://www.google.com">Link catre curs</a><br />
-			Materie 2: <a href="https://www.google.com">Link catre curs</a><br />
-			Materie 3: <a href="https://www.google.com">Link catre curs</a><br />
-			Materie 4: <a href="https://www.google.com">Link catre curs</a><br />
-		</div>
-	</div>
-	&nbsp;
-	<div tabindex="0" class="in2 btn btn-default onclick-menu om3"> 
-		<div id="list" class="onclick-menu-content">
-			Materie 1: <a href="https://www.google.com">Link catre curs</a><br />
-			Materie 2: <a href="https://www.google.com">Link catre curs</a><br />
-			Materie 3: <a href="https://www.google.com">Link catre curs</a><br />
-			Materie 4: <a href="https://www.google.com">Link catre curs</a><br />
-		</div>
-	</div>
-	&nbsp;
-	<div tabindex="0" class="in2 btn btn-default onclick-menu om4">
-		<div id="list" class="onclick-menu-content">
-			Materie 1: <a href="https://www.google.com">Link catre curs</a><br />
-			Materie 2: <a href="https://www.google.com">Link catre curs</a><br />
-			Materie 3: <a href="https://www.google.com">Link catre curs</a><br />
-			Materie 4: <a href="https://www.google.com">Link catre curs</a><br />
-		</div>
-	</div> 
-	&nbsp;
+@{
+    for (int an = 1; an <= 4; an++)
+    {
+        <div class="mytable">
+            <div class="list">
+                @{
+                    List<WADLAB4.Models.Materie> mats = db.Materii.Where(m => m.An == an && mySpecID == m.IDSpec).ToList();
+                    foreach (var mat in mats)
+                    {
+                        <p>@mat.Nume: Credite->@mat.Credite, Profesor->@mat.Profesor, Ore->@mat.TotalOre, Semestru->@mat.Sem</p>
+                    }
+                }
+            </div>
+        </div>
+    }
+}
 </div>
 <br /><br />
 
 <h2>Cursuri(Teacher view)</h2>
+
+@{
+    var tName = "Gabriel Alienov";
+}
 <div class="cursuri-prof">
-	<h2>Cursurile Mele:</h2>
-	<div class="mytable">
-		<label>Curs 1:</label>
-		<p>
-			Nume: NUME CURS<br />
-			Specializare: SPEC <br />
-			An studiu: X <br />
-			Link: <a href="https://www.google.com"> Here</a><br />
-		</p>		
-		&nbsp;
-		<label>Curs 2:</label>
-		</p>
-		<p>
-			Nume: NUME CURS<br />
-			Specializare: SPEC <br />
-			An studiu: X <br />
-			Link: <a href="https://www.google.com"> Here</a><br />
-		</p>
-	</div>
-	<h2>Upload Curs</h2>
-	<div class="container">
-		<form id="up-content">
-			<p>
-				<label>Numele Cursului: </label><input type="text" name="cname" />
-			</p>
-			<p>
-				<label>Specializare Curs: </label><input type="text" name="cspec" /><br />
-			</p>
-			<p>
-				<label>An Curs: </label><input type="number" min="1" max="4" name="can" /><br />
-			</p>
-			<p>
-				<label>Fisier Curs: </label><input type="file" name="cfile" /><br />
-			</p>
-			<input type="submit" value="Upload Curs" /><br />
-		</form>
-	</div>
+    <h2>Cursurile Mele (@tName):</h2>
+    <div class="mytable">
+        @{
+            List<WADLAB4.Models.Materie> tmats = db.Materii.Where(m => m.Profesor == tName).ToList();
+            foreach (var mat in tmats)
+            {
+                <label>Curs @mat.Nume:</label>
+                <p>
+                    Specializare: @db.Specs.Where(m => m.id == mat.IDSpec).First().Nume <br />
+                    Nr Credite: @mat.Credite <br />
+                    Nr Ore: @mat.TotalOre <br />
+                    Link: <a href="https://www.google.com"> Here</a><br />
+                </p>
+                <br />
+            }
+        }
+    </div>
+    <h2>Upload Curs</h2>
+    <div class="container">
+        <form id="up-content" runnat="server">
+            <p>
+                <label>Numele Cursului: </label><input type="text" name="cname" runnat="server" />
+            </p>
+            <p>
+                <label>ID Specializare Curs: </label><input type="number" name="cspec" runnat="server" /><br />
+            </p>
+            <p>
+                <label>An Curs: </label><input type="number" min="1" max="4" name="can" runnat="server" /><br />
+            </p>
+            <p>
+                <label>Semestru Curs: </label><input type="number" min="1" max="4" name="csem" runnat="server" /><br />
+            </p>
+            <p>
+                <label>Nr Credite: </label><input type="number" min="1" max="15" name="ccred" runnat="server" /><br />
+            </p>
+            <p>
+                <label>Nr Ore: </label><input type="number" min="2" max="30" name="core" runnat="server" /><br />
+            </p>
+            <p>
+                <label>Fisier Curs: </label><input type="file" name="cfile" runnat="server" /><br />
+            </p>
+            <input type="submit" value="Upload Curs" runnat="server" onclick="AddCurs" /><br />
+        </form>
+    </div>
 </div>

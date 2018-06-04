@@ -6,7 +6,6 @@
     .row {
         width: 100%;
         overflow-x: auto;
-
     }
 </style>
 
@@ -38,9 +37,9 @@
 </div>
 <br /><br />
 <h3>Post News: (teacher view)</h3>
-<form>
-    <label>Title: </label><input type="text" name="titlu"/><br />
-    <label>Link: </label><input type="text" name="link" /><br />
-    <textarea rows="4" width=25% cols="40" placeholder="Insert news here"></textarea><br />
-    <button type="submit">Post</button>
+<form runat="server">
+    <label>Title: </label><input type="text" name="titlu" runat="server"/><br />
+    <label>Link: </label><input type="text" name="link" runat="server"/><br />
+    <textarea rows="4" width=25% cols="40" placeholder="Insert news here" name="mes" runat="server"></textarea><br />
+    <button type="submit" onclick="AddNew" runat="server">Post</button>
 </form>
